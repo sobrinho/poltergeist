@@ -200,7 +200,7 @@ class PoltergeistAgent.Node
 
     this.changed()
     this.input()
-    this.trigger('blur')
+    # this.trigger('blur')
 
   isMultiple: ->
     @element.multiple
